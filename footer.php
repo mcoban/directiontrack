@@ -1,7 +1,7 @@
 <footer>
     <h4 class="logo">direction <br>track</h4>
     <div class="item">
-      <h5>directiontrack</h5>
+      <h5>Company</h5>
       <ul>
         <li><a href="#">menu 1</a></li>
         <li><a href="#">menu 2</a></li>
@@ -10,7 +10,7 @@
       </ul>
     </div>
     <div class="item">
-      <h5>directiontrack</h5>
+      <h5>Products</h5>
       <ul>
         <li><a href="#">menu 1</a></li>
         <li><a href="#">menu 2</a></li>
