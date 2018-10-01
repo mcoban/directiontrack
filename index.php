@@ -101,7 +101,7 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
           <li>30 day risk-free trial</li>
           <li>Update and Support</li>
         </ul>
-        <span class="price">$1.5 / month</span>
+        <span class="price">$2 / month</span>
       </div>
       <div class="onsite">
         <img src="<?php bloginfo('template_directory') ?>/img/power-cord.png" alt="On site" height="50">
@@ -112,7 +112,7 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
           <li>30 day risk-free trial</li>
           <li>Update and Support</li>
         </ul>
-        <span class="price">$2 / month</span>
+        <span class="price">$1.5 / month</span>
       </div>
     </div>
   </div>

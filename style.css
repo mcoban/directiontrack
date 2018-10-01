@@ -233,7 +233,7 @@ body a {
 
 .hero .inner .title-bar-wrapper .title-inner h2.subtitle,
 .hero2 .inner .title-bar-wrapper .title-inner h2.subtitle {
-  font-siz: 24px;
+  font-size: 24px;
   color: #fff;
   font-weight: 500;
 }
@@ -603,21 +603,27 @@ body a {
 footer {
   background: #2B2B2B;
   color: #fff;
-  padding: 60px 30px 100px 30px;
+  padding: 60px 20px 100px 20px;
+}
+
+footer .wrapper {
+  max-width: 960px;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 footer .logo {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
+}
+
+footer .item {
+  margin-left: auto;
 }
 
 footer .item h5 {
@@ -630,6 +636,11 @@ footer .item ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+footer .item ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
 footer .item ul li a {

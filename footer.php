@@ -1,31 +1,15 @@
 <footer>
-    <h4 class="logo">direction <br>track</h4>
-    <div class="item">
-      <h5>Company</h5>
-      <ul>
-        <li><a href="#">menu 1</a></li>
-        <li><a href="#">menu 2</a></li>
-        <li><a href="#">menu 3</a></li>
-        <li><a href="#">menu 4</a></li>
-      </ul>
-    </div>
-    <div class="item">
-      <h5>Products</h5>
-      <ul>
-        <li><a href="#">menu 1</a></li>
-        <li><a href="#">menu 2</a></li>
-        <li><a href="#">menu 3</a></li>
-        <li><a href="#">menu 4</a></li>
-      </ul>
-    </div>
-    <div class="item">
-      <h5>directiontrack</h5>
-      <ul>
-        <li><a href="#">menu 1</a></li>
-        <li><a href="#">menu 2</a></li>
-        <li><a href="#">menu 3</a></li>
-        <li><a href="#">menu 4</a></li>
-      </ul>
+  <div class="wrapper">
+      <h4 class="logo">direction track</h4>
+      <div class="item">
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Faq</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      </div>
     </div>
   </footer>
 
