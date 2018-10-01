@@ -73,19 +73,7 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
       </div>
     </div>
   </div>
-  <div class="subscribe">
-    <div>
-      <h4>Get a free live demo</h4>
-      <span>lorem ipsum dolor</span>
-    </div>
-    <div class="input">
-      <input type="email">
-    </div>
-    <div class="input">
-      <input type="text">
-    </div>
-    <a class="button" href="#"><span>Get a Demo</span></a>
-  </div>
+  
   <div class="prices-section">
     <h3 class="title">Competitor Prices</h3>
     <p class="short-text">
