@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Light.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Regular.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Medium.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Semibold.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Bold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Extrabold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'dt';
+  src: url(fonts/WonderUnitSans-Black.ttf);
+  font-weight: 800;
+}
+
+html,
+body {
+  font-family: dt;
+  font-weight: 400;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
