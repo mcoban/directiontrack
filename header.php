@@ -22,7 +22,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about/">About</a></li>
             <li><a href="/contact/">Contact</a></li>
-            <li><a href="/login/">Login</a></li>
+            <li><a href="http://directiontrack.com:8080/entrydispatcher.jsp">Login</a></li>
           </ul>
           <div @click="closeMobileMenu" class="close-button"><img src="<?php bloginfo('template_directory') ?>/img/close.svg" alt="Close Menu" height="48"></div>
       </div>
@@ -30,7 +30,7 @@
         <li><a href="<?php bloginfo('home') ?>/">Home</a></li>
         <li><a href="<?php bloginfo('home') ?>/about/">About</a></li>
         <li><a href="<?php bloginfo('home') ?>/contact/">Contact</a></li>
-        <li><a href="<?php bloginfo('home') ?>/login/">Login</a></li>
+        <li><a href="http://directiontrack.com:8080/entrydispatcher.jsp">Login</a></li>
       </ul>
     </div>
   </div>
