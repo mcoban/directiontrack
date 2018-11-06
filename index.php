@@ -105,4 +105,18 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
     </div>
   </div>
 
+  <div id="brands">
+    <h3>We support over 30+ gps tracking devices</h3>
+    <span>And the list continues to grow! Choose device or suggest yours</span>
+    <div class="logos">
+      <a href="/brands/concox" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/concox.png" alt="Concox" height="72"></a>
+      <a href="/brands/cellocator" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/cellocator.png" alt="Cellocator" height="72"></a>
+      <a href="/brands/telteonika" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/telteonika.png" alt="Telteonika" height="72"></a>
+      <a href="/brands/minova" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/minova.jpg" alt="Minova" height="72"></a>
+    </div>
+
+  </div>
+
+  
+
 <?php get_footer() ?>

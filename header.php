@@ -21,7 +21,6 @@
       <div :class="['mobile-menu-popup', { 'is-visible': isVisible }]">
           <ul class="navmenu">
             <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="http://directiontrack.com:8080/entrydispatcher.jsp">Login</a></li>
           </ul>
@@ -29,7 +28,6 @@
       </div>
       <ul class="navmenu">
         <li><a href="<?php bloginfo('home') ?>/">Home</a></li>
-        <li><a href="<?php bloginfo('home') ?>/about/">About</a></li>
         <li><a href="<?php bloginfo('home') ?>/contact/">Contact</a></li>
         <li><a href="http://directiontrack.com:8080/entrydispatcher.jsp">Login</a></li>
       </ul>
