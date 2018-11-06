@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><?php wp_title() ?></title>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
-  <link rel="icon" href="<?php bloginfo('stylesheet_url') ?>/img/logo.png" type="image/x-icon"/>
+  <link rel="icon" href="<?php bloginfo('template_directory') ?>/img/logo.png" type="image/x-icon"/>
 
   <?php wp_head() ?>
 </head>
