@@ -20,8 +20,8 @@
   </div>
 
   <div class="software-on-devices">
-    <img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices">
-    <img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices">
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices"></div>
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices"></div>
   </div>
 
   <div class="features">
