@@ -122,7 +122,7 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
     <div class="logos">
       <a href="/brands/concox" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/concox.png" alt="Concox" height="72"></a>
       <a href="/brands/cellocator" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/cellocator.png" alt="Cellocator" height="72"></a>
-      <a href="/brands/telteonika" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/telteonika.png" alt="Telteonika" height="72"></a>
+      <a href="/brands/teltonika" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/telteonika.png" alt="Teltonika" height="72"></a>
       <a href="/brands/minova" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/minova.jpg" alt="Minova" height="72"></a>
     </div>
 
