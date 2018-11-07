@@ -340,6 +340,9 @@ body a {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template: 1fr / 1fr;
   }
   .software-on-devices img {
     max-width: 350px;
