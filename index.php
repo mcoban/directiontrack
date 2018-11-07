@@ -38,6 +38,12 @@
         <span>Ease the sharing of company vehicles between employees with Vehicle Booking! Employees can Lock and unlock vehicle doors only inside the reserrved time.</span>
       </div>
     </div>
+  </div>
+  <div class="software-on-devices">
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices"></div>
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices"></div>
+  </div>
+  <div class="featured">
     <div class="row">
       <div class="item">
         <h3 class="title">Car Usage Optimization</h3>
@@ -61,8 +67,6 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
   </div>
 
   <div class="software-on-devices">
-    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices"></div>
-    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices"></div>
     <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/1.jpg" alt="Devices"></div>
     <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/2.jpg" alt="Devices"></div>
   </div>
