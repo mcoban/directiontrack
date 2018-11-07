@@ -22,6 +22,8 @@
   <div class="software-on-devices">
     <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices"></div>
     <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices"></div>
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/1.jpg" alt="Devices"></div>
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/2.jpg" alt="Devices"></div>
   </div>
 
   <div class="features">

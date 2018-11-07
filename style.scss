@@ -236,8 +236,8 @@ body {
 .software-on-devices {
   margin: 100px auto;
   max-width: 1600px;
-  display: flex;
-  justify-content: space-between;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-gap: 20px;
 
   img {
     max-width: 100%;
