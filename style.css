@@ -321,11 +321,11 @@ body a {
 }
 
 .software-on-devices {
-  margin: 100px auto;
+  margin: 40px auto;
   max-width: 1600px;
-  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-rows: 1fr;
   -ms-grid-columns: 1fr 1fr;
-      grid-template: 1fr 1fr / 1fr 1fr;
+      grid-template: 1fr / 1fr 1fr;
   grid-gap: 20px;
   display: -ms-grid;
   display: grid;

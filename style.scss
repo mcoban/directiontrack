@@ -234,9 +234,9 @@ body {
 }
 
 .software-on-devices {
-  margin: 100px auto;
+  margin: 40px auto;
   max-width: 1600px;
-  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr / 1fr 1fr;
   grid-gap: 20px;
   display: grid;
 
