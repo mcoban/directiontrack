@@ -43,7 +43,7 @@
     <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices"></div>
     <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices"></div>
   </div>
-  <div class="featured">
+  <div class="features">
     <div class="row">
       <div class="item">
         <h3 class="title">Car Usage Optimization</h3>
