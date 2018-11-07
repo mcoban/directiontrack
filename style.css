@@ -323,6 +323,12 @@ body a {
 .software-on-devices {
   margin: 100px auto;
   max-width: 1600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .software-on-devices img {
@@ -331,12 +337,6 @@ body a {
 
 @media screen and (max-width: 425px) {
   .software-on-devices {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;

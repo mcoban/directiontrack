@@ -236,14 +236,14 @@ body {
 .software-on-devices {
   margin: 100px auto;
   max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
 
   img {
     max-width: 100%;
   }
   
   @media screen and (max-width: $break-mobile) {
-    display: flex;
-    justify-content: center;
     align-items: flex-start;
 
     img {
