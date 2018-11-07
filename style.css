@@ -325,6 +325,10 @@ body a {
   max-width: 1600px;
 }
 
+.software-on-devices img {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 425px) {
   .software-on-devices {
     display: -webkit-box;

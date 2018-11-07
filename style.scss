@@ -236,6 +236,10 @@ body {
 .software-on-devices {
   margin: 100px auto;
   max-width: 1600px;
+
+  img {
+    max-width: 100%;
+  }
   
   @media screen and (max-width: $break-mobile) {
     display: flex;
