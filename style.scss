@@ -238,6 +238,7 @@ body {
   max-width: 1600px;
   grid-template: 1fr 1fr / 1fr 1fr;
   grid-gap: 20px;
+  display: grid;
 
   img {
     max-width: 100%;

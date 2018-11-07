@@ -19,13 +19,6 @@
     <div class="text">All-in-one platform for your business needs. Remotely track vehicles and assets using simple and powerful solutions.</div>
   </div>
 
-  <div class="software-on-devices">
-    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices"></div>
-    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices"></div>
-    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/1.jpg" alt="Devices"></div>
-    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/2.jpg" alt="Devices"></div>
-  </div>
-
   <div class="features">
     <div class="row">
       <div class="item">
@@ -66,7 +59,16 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
     </div>
     <a class="get-demo">Get Demo</a>
   </div>
-  <div class="hero hero2">
+
+  <div class="software-on-devices">
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/3.jpg" alt="Devices"></div>
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/4.jpg" alt="Devices"></div>
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/1.jpg" alt="Devices"></div>
+    <div><img src="<?php bloginfo('template_directory') ?>/img/ss/en/2.jpg" alt="Devices"></div>
+  </div>
+
+
+  <!--<div class="hero hero2">
     <div class="inner">
       <div class="title-bar-wrapper">
         <div class="title-inner">
@@ -75,7 +77,7 @@ Optimize vehicle usage. See whether your fleet needs to be made larger or dimini
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   
   <div class="prices-section">
     <h3 class="title">Competitor Prices</h3>

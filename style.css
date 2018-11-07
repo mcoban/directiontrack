@@ -327,6 +327,8 @@ body a {
   -ms-grid-columns: 1fr 1fr;
       grid-template: 1fr 1fr / 1fr 1fr;
   grid-gap: 20px;
+  display: -ms-grid;
+  display: grid;
 }
 
 .software-on-devices img {
