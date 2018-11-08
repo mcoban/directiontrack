@@ -1,3 +1,6 @@
+<?php
+  $lang = isset($_COOKIE['lang']) && ($_COOKIE['lang'] == "tr" || $_COOKIE['lang'] == "en")
+?>
 <?php get_header() ?>
 
 
