@@ -1,3 +1,3 @@
  <?php
 
-    $home['en']['h1'] = "Best Fleet <br>Tracking Software";
+    $home['en']['h1'] = "Best Fleet <br>Tracking Softwares";
