@@ -1,6 +1,10 @@
+<?php
+  $lang = isset($_COOKIE['lang']) ? $_COOKIE['lang'] : "en";
+  if ($lang != "en" || $lang != "tr") $lang = "en";
+  include('lang.php');
+?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="<?php echo $lang ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +15,7 @@
 
   <?php wp_head() ?>
 </head>
-<?php echo $lang; ?>
+
 <body>
   <div class="header" id="header">
     <div class="container large-container">

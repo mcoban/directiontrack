@@ -2,7 +2,6 @@
   $lang = isset($_COOKIE['lang']) ? $_COOKIE['lang'] : "en";
   if ($lang != "en" || $lang != "tr") $lang = "en";
   include('lang.php');
-  echo $lang;
 ?>
 <?php get_header() ?>
 
