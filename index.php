@@ -1,5 +1,7 @@
 <?php
-  $lang = isset($_COOKIE['lang']) && ($_COOKIE['lang'] == "tr" || $_COOKIE['lang'] == "en")
+  $lang = isset($_COOKIE['lang']) ? $_COOKIE['lang'] : "en";
+  if ($lang != "en" || $lang != "tr") $lang = "en";
+  include('lang.php');
 ?>
 <?php get_header() ?>
 
@@ -8,7 +10,7 @@
     <div class="inner">
       <div class="title-bar-wrapper">
         <div class="title-inner">
-          <h1 class="title">Best Fleet <br>Tracking Software</h1>
+          <h1 class="title"><?php echo $home[$lang]['h1'] ?></h1>
           <h2 class="subtitle">Manage and monitor your fleet with directiontrack SaaS</h2>
         </div>
       </div>
