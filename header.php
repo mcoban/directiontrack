@@ -11,7 +11,7 @@
 
   <?php wp_head() ?>
 </head>
-
+<?php echo $lang; ?>
 <body>
   <div class="header" id="header">
     <div class="container large-container">
