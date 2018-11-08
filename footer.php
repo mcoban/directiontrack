@@ -1,12 +1,17 @@
+<?php
+  $lang = isset($_COOKIE['lang']) ? $_COOKIE['lang'] : "en";
+  if ($lang != "en" || $lang != "tr") $lang = "en";
+  include('lang.php');
+?>
 <footer>
   <div class="wrapper">
       <h4 class="logo">direction track</h4>
       <div class="item">
         <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Faq</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#"><?php echo $footer['privacy'] ?></a></li>
+          <li><a href="#"><?php echo $footer['terms_of_service'] ?></a></li>
+          <li><a href="#"><?php echo $footer['faq'] ?></a></li>
+          <li><a href="#"><?php echo $footer['contact'] ?></a></li>
         </ul>
       </div>
       </div>

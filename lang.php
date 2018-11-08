@@ -45,3 +45,8 @@
 
     $home['en']['brands_title'] = "We support over 30+ gps tracking devices";
     $home['en']['brands_desc'] = "And the list continues to grow! Choose device or suggest yours";
+
+    $footer['privacy'] = "Privacy";
+    $footer['terms_of_service'] = "Terms of Service";
+    $footer['faq'] = "Faq";
+    $footer['contact'] = "Contact";
