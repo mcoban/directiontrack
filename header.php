@@ -21,16 +21,16 @@
       <a @click="showMobileMenu" class="mobile-menu"><img src="<?php bloginfo('template_directory') ?>/img/menu.svg" alt="Menu Icon" height="36"></a>
       <div :class="['mobile-menu-popup', { 'is-visible': isVisible }]">
           <ul class="navmenu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp">Login</a></li>
+            <li><a href="/"><?php echo $header[$lang]['home'] ?></a></li>
+            <li><a href="/contact/"><?php echo $header[$lang]['contact'] ?></a></li>
+            <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
           </ul>
           <div @click="closeMobileMenu" class="close-button"><img src="<?php bloginfo('template_directory') ?>/img/close.svg" alt="Close Menu" height="48"></div>
       </div>
       <ul class="navmenu">
-        <li><a href="<?php bloginfo('home') ?>/">Home</a></li>
-        <li><a href="<?php bloginfo('home') ?>/contact/">Contact</a></li>
-        <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp">Login</a></li>
+        <li><a href="<?php bloginfo('home') ?>/"><?php echo $header[$lang]['home'] ?></a></li>
+        <li><a href="<?php bloginfo('home') ?>/contact/"><?php echo $header[$lang]['contact'] ?></a></li>
+        <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
       </ul>
     </div>
   </div>
