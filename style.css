@@ -983,4 +983,13 @@ footer .item ul li a {
 #brands-page .devices {
   padding: 60px 0 120px 0;
 }
+
+#page {
+  max-width: 1600px;
+  padding: 20px;
+}
+
+#page h1 {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
