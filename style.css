@@ -131,6 +131,7 @@ body a {
     width: 100%;
     height: 100%;
     background: #fff;
+    z-index: 99999;
   }
   .header .mobile-menu-popup.is-visible .navmenu {
     display: block;
@@ -946,6 +947,12 @@ footer .item ul li a {
   font-size: 18px;
   border-radius: 4px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 425px) {
+  #login-page {
+    padding: 0;
+  }
 }
 
 #brands-page .banner {

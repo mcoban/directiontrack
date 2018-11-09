@@ -8,10 +8,10 @@
       <h4 class="logo">direction track</h4>
       <div class="item">
         <ul>
-          <li><a href="#"><?php echo $footer['privacy'] ?></a></li>
-          <li><a href="#"><?php echo $footer['terms_of_service'] ?></a></li>
-          <li><a href="#"><?php echo $footer['faq'] ?></a></li>
-          <li><a href="#"><?php echo $footer['contact'] ?></a></li>
+          <li><a href="/privacy/"><?php echo $footer['privacy'] ?></a></li>
+          <li><a href="/terms/"><?php echo $footer['terms_of_service'] ?></a></li>
+          <li><a href="/faq/"><?php echo $footer['faq'] ?></a></li>
+          <li><a href="/contact/"><?php echo $footer['contact'] ?></a></li>
         </ul>
       </div>
       </div>
