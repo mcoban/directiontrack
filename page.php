@@ -1,3 +1,6 @@
 <?php get_header() ?>
-asdsad
+
+<?php the_title() ?>
+<?php the_content() ?>
+
 <?php get_footer() ?>
