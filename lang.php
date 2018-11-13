@@ -124,7 +124,7 @@ $home['en']['option_table']['option_20'] = "Data storage and data backup";
 $home['en']['option_table']['option_21'] = "SMS service";
 $home['en']['option_table']['option_22'] = "Installation inside your company firewall";
 $home['en']['option_table']['option_23'] = "Trial options";
-$home['en']['option_desc_1'] = "<b>Directiontrack Cloud</b> is an all-inclusive service hosted by GpsGate. We handle your server setup, server maintenance, and ongoing hosting. You can focus on growing your business while we handle the IT.";
+$home['en']['option_desc_1'] = "<b>Directiontrack Cloud</b> is an all-inclusive service hosted by Directiontrack. We handle your server setup, server maintenance, and ongoing hosting. You can focus on growing your business while we handle the IT.";
 $home['en']['option_desc_2'] = "<b>Directiontrack On-site</b> lets you have your tracking server behind your firewall. You have the server, and you have the in-house IT skills to manage it.";
 
 $home['tr']['option_table']['option_1'] = "Takip Partner Hizmet";
@@ -150,6 +150,6 @@ $home['tr']['option_table']['option_20'] = "Veri depolama ve yedekleme";
 $home['tr']['option_table']['option_21'] = "SMS hizmeti";
 $home['tr']['option_table']['option_22'] = "Firma güvenlik duvarına kurulum";
 $home['tr']['option_table']['option_23'] = "Demo Kullanımı";
-$home['tr']['option_desc_1'] = "<b>Directiontrack Cloud</b> is an all-inclusive service hosted by GpsGate. We handle your server setup, server maintenance, and ongoing hosting. You can focus on growing your business while we handle the IT.";
-$home['tr']['option_desc_2'] = "<b>Directiontrack On-site</b> lets you have your tracking server behind your firewall. You have the server, and you have the in-house IT skills to manage it.";
+$home['tr']['option_desc_1'] = "<b>Directiontrack Bulut</b> tüm servis hizmetlerinin bir arada directiontrack altyapısıyla sunulduğu hizmettir. Sunucu kurulumu, hosting, ve bakım hizmetleri tarafımızdan sağlanmaktadır. Yazılım altyapısıyla vakit kaybetmeden işinizi büyütebilirsiniz.";
+$home['tr']['option_desc_2'] = "<b>Directiontrack Yerinde</b> hizmetiyle kendi sunucularınızla ve güvenlik altyapınızla yazılım ve servis hizmetlerini kullanabilirsiniz.";
 
