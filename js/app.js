@@ -13,8 +13,7 @@ new Vue({
       this.isVisible = false
     },
     changeLanguage (language) {
-      document.cookie = `lang=${language}`
-      document.location.reload()
+      document.location.href = `/?lang=${lang}`
     }
   },
   created () {
