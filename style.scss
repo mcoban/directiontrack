@@ -521,8 +521,11 @@ body {
         padding: 1rem;
       }
     }
-    td {
-      padding: .5rem;
+    tr:not(last-child) {
+      td {
+        padding: .5rem;
+        border-bottom: 1px solid #eee;
+      }
     }
   }
 }
