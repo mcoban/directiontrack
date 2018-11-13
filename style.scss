@@ -512,19 +512,25 @@ body {
   table {
     margin: 50px auto;
     width: 90%;
-    font-size: 1.25rem;
     border: 1px solid #eee;
     thead {
       background: #f1f1f1;
       th {
+        font-size: 1.25rem;
         font-weight: 500;
         padding: 1rem;
       }
     }
     tr {
       td {
+        font-size: 1rem;
         padding: .5rem;
         border-bottom: 1px solid #eee;
+      }
+      &:last-child {
+        td {
+          border-bottom: none;
+        }
       }
     }
   }

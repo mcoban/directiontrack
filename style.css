@@ -657,7 +657,6 @@ body a {
 #options table {
   margin: 50px auto;
   width: 90%;
-  font-size: 1.25rem;
   border: 1px solid #eee;
 }
 
@@ -666,13 +665,19 @@ body a {
 }
 
 #options table thead th {
+  font-size: 1.25rem;
   font-weight: 500;
   padding: 1rem;
 }
 
 #options table tr td {
+  font-size: 1rem;
   padding: .5rem;
   border-bottom: 1px solid #eee;
+}
+
+#options table tr:last-child td {
+  border-bottom: none;
 }
 
 footer {

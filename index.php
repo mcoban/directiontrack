@@ -108,7 +108,7 @@
 
   <div id="options">
     <h3><?php echo $home[$lang]['options_title'] ?></h3>
-    <table>
+    <table cell-spacing="0" border-spacing="0">
       <thead>
         <tr>
           <th></th>
