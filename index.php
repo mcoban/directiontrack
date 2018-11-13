@@ -116,6 +116,13 @@
           <th><?php echo $home[$lang]['pricing_opt2_title'] ?></th>
         </tr>
       </thead>
+      <tbody>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_1'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
     </table>
   </div>
 

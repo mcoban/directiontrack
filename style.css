@@ -607,29 +607,25 @@ body a {
   }
 }
 
-#options {
+#brands, #options {
   padding: 3rem calc(50% - 30rem);
 }
 
-#brands {
-  padding: 3rem calc(50% - 30rem);
-}
-
-#brands h3 {
+#brands h3, #options h3 {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
 
-#brands h3 ~ span {
+#brands h3 ~ span, #options h3 ~ span {
   text-align: center;
   display: block;
   font-weight: 200;
   font-size: 1.2rem;
 }
 
-#brands .logos {
+#brands .logos, #options .logos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -640,20 +636,20 @@ body a {
 }
 
 @media screen and (max-width: 425px) {
-  #brands {
+  #brands, #options {
     padding: 2rem 1rem;
   }
-  #brands h3 {
+  #brands h3, #options h3 {
     font-size: 2rem;
     line-height: 1.3;
   }
-  #brands .logos {
+  #brands .logos, #options .logos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #brands .logos a {
+  #brands .logos a, #options .logos a {
     text-align: center;
   }
 }
