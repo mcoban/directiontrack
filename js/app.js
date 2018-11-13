@@ -13,7 +13,7 @@ new Vue({
       this.isVisible = false
     },
     changeLanguage (language) {
-      document.location.href = `/?lang=${lang}`
+      document.location.href = `/?lang=${language}`
     }
   },
   created () {

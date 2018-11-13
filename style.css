@@ -1043,6 +1043,7 @@ footer .item ul li a {
   width: 24px;
   height: 20px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .flag.tr {
