@@ -14,6 +14,7 @@ new Vue({
     },
     changeLanguage (language) {
       document.cookie = `lang=${language}`
+      document.location.reload()
     }
   },
   created () {
