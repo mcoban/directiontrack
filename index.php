@@ -119,18 +119,18 @@
       <tbody>
         <tr>
           <td class="title"><?php echo $home[$lang]['option_table']['option_1'] ?></td>
-          <td></td>
-          <td></td>
+          <td><?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="18"></td>
+          <td><?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="18"></td>
         </tr>
         <tr>
           <td><?php echo $home[$lang]['option_table']['option_2'] ?></td>
-          <td></td>
-          <td></td>
+          <td><?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="18"></td>
+          <td><?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="18"></td>
         </tr>
         <tr>
           <td><?php echo $home[$lang]['option_table']['option_3'] ?></td>
-          <td></td>
-          <td></td>
+          <td><?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="18"></td>
+          <td><?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="18"></td>
         </tr>
         <tr>
           <td><?php echo $home[$lang]['option_table']['option_4'] ?></td>
