@@ -695,6 +695,10 @@ body a {
   margin-bottom: 1.5rem;
 }
 
+#options p b {
+  font-weight: 500;
+}
+
 footer {
   background: #2B2B2B;
   color: #fff;
