@@ -75,7 +75,7 @@
         <span><?php echo $home[$lang]['feature_8_desc'] ?></span>
       </div>
     </div>
-    <a href="mailto: sales@directiontrack.com" class="get-demo">Get Demo</a>
+    <a href="mailto: sales@directiontrack.com" class="get-demo"><?php echo $home[$lang]['get_demo'] ?></a>
   </div>
 
   
