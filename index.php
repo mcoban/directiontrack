@@ -80,10 +80,8 @@
 
   
   <div class="prices-section">
-    <h3 class="title">Competitor Prices</h3>
-    <p class="short-text">
-      To get started with your own service, select the edition you will need: Hosted, Cloud or On-Site.
-    </p>
+    <h3 class="title"><?php echo $home[$lang]['pricing_title'] ?></h3>
+    <p class="short-text"><?php echo $home[$lang]['pricing_desc'] ?></p>
     <div class="choices">
       <div class="cloud">
         <img src="<?php bloginfo('template_directory') ?>/img/cloud.png" alt="Cloud" height="50">

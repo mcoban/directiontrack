@@ -4,7 +4,6 @@
   include('lang.php');
   echo $lang;
   $lang_to_switch = $lang == "en" ? "tr" : "en";
-  echo $lang_to_switch
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
