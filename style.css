@@ -674,6 +674,12 @@ body a {
   font-size: 1rem;
   padding: .5rem;
   border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+#options table tr td.title {
+  font-size: 1.3rem;
+  font-weight: 200;
 }
 
 #options table tr:last-child td {

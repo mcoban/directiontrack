@@ -118,7 +118,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><?php echo $home[$lang]['option_table']['option_1'] ?></td>
+          <td class="title"><?php echo $home[$lang]['option_table']['option_1'] ?></td>
           <td></td>
           <td></td>
         </tr>
