@@ -2,6 +2,7 @@
   $lang = $_COOKIE['lang'];
   if ($lang != "en" && $lang != "tr") $lang = "en";
   include('lang.php');
+  $lang_to_switch = $lang == "en" ? "tr" : "en";
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
