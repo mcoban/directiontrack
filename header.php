@@ -44,10 +44,10 @@
         <li><a href="<?php bloginfo('home') ?>/contact/"><?php echo $header[$lang]['contact'] ?></a></li>
         <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
         <li>
-<?php if ($lang_to_switch == "en") { ?>
-          <a @click="changeLanguage('tr')" class="flag en"></a>
+<?php if ($lang_to_switch == "tr") { ?>
+          <a @click="changeLanguage('tr')" class="flag tr"></a>
           <?php } else { ?>
-            <a @click="changeLanguage('en')" class="flag tr"></a>
+            <a @click="changeLanguage('en')" class="flag en"></a>
 <?php } ?>
         </li>
       </ul>
