@@ -234,6 +234,8 @@
         </tr>
       </tbody>
     </table>
+    <p><?php echo $home[$lang]['option_desc_1'] ?></p>
+    <p><?php echo $home[$lang]['option_desc_2'] ?></p>
   </div>
 
   <div id="brands">
