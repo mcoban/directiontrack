@@ -83,6 +83,9 @@ $home['tr']['pricing_opt2_feature_4'] = "Güncelleme ve teknik destek";
 $home['en']['pricing_opt2_feature_month'] = "month";
 $home['tr']['pricing_opt2_feature_month'] = "ay";
 
+$home['en']['options_title'] = "Which option is right for you?";
+$home['tr']['options_title'] = "Sizin için hangi seçenek daha uygun?";
+
 $home['en']['brands_title'] = "We support over 30+ gps tracking devices";
 $home['tr']['brands_title'] = "30'dan fazla gps takip cihazı destekliyoruz.";
 $home['en']['brands_desc'] = "And the list continues to grow! Choose device or suggest yours";

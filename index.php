@@ -71,22 +71,9 @@
         <span><?php echo $home[$lang]['feature_8_desc'] ?></span>
       </div>
     </div>
-    <a class="get-demo">Get Demo</a>
+    <a href="mailto: sales@directiontrack.com" class="get-demo">Get Demo</a>
   </div>
 
-
-
-
-  <!--<div class="hero hero2">
-    <div class="inner">
-      <div class="title-bar-wrapper">
-        <div class="title-inner">
-          <h1 class="title">Best Fleet <br>Tracking Software</h1>
-          <h2 class="subtitle">Manage and monitor your fleet with directiontrack SaaS</h2>
-        </div>
-      </div>
-    </div>
-  </div> -->
   
   <div class="prices-section">
     <h3 class="title">Competitor Prices</h3>
@@ -119,9 +106,22 @@
     </div>
   </div>
 
+  <div id="options">
+    <h3><?php echo $home[$lang]['options_title'] ?></h3>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th><?php echo $home[$lang]['pricing_opt1_title'] ?></th>
+          <th><?php echo $home[$lang]['pricing_opt2_title'] ?></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+
   <div id="brands">
-    <h3>We support over 30+ gps tracking devices</h3>
-    <span>And the list continues to grow! Choose device or suggest yours</span>
+    <h3><?php echo $home[$lang]['brands_title'] ?></h3>
+    <span><?php echo $home[$lang]['brands_desc'] ?></span>
     <div class="logos">
       <a href="/brands/concox" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/concox.png" alt="Concox" height="72"></a>
       <a href="/brands/cellocator" class="item"><img src="<?php bloginfo('template_directory') ?>/img/brands/cellocator.png" alt="Cellocator" height="72"></a>
