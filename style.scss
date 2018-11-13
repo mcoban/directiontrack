@@ -508,6 +508,19 @@ body {
 }
 
 
+#options {
+  table {
+    margin: 50px auto;
+    width: 70%;
+    font-size: 1.25rem;
+    border: 1px solid #eee;
+    th {
+      font-weight: 500;
+    }
+  }
+}
+
+
 footer {
   background: #2B2B2B;
   color: #fff;
