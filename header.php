@@ -35,7 +35,7 @@
             <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
             <li>
               <a href="#">
-                <img src="<?php bloginfo('template_directory') ?>/img/<?php echo $lang_to_switch ?>" alt="<?php echo $lang_to_switch ?>">
+                <img src="<?php bloginfo('template_directory') ?>/img/<?php echo $lang_to_switch ?>" height="16" alt="<?php echo $lang_to_switch ?>">
               </a>
             </li>
           </ul>
@@ -45,6 +45,11 @@
         <li><a href="<?php bloginfo('home') ?>/"><?php echo $header[$lang]['home'] ?></a></li>
         <li><a href="<?php bloginfo('home') ?>/contact/"><?php echo $header[$lang]['contact'] ?></a></li>
         <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
+        <li>
+          <a href="#">
+            <img src="<?php bloginfo('template_directory') ?>/img/<?php echo $lang_to_switch ?>" height="16" alt="<?php echo $lang_to_switch ?>">
+          </a>
+        </li>
       </ul>
     </div>
   </div>
