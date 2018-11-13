@@ -668,6 +668,7 @@ body a {
   font-size: 1.25rem;
   font-weight: 500;
   padding: 1rem;
+  text-align: left;
 }
 
 #options table tr td {

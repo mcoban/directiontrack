@@ -119,8 +119,8 @@
       <tbody>
         <tr>
           <td class="title"><?php echo $home[$lang]['option_table']['option_1'] ?></td>
-          <td><img src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="16"></td>
-          <td><img src="<?php bloginfo('template_directory') ?>/img/check.svg" alt="Check" height="16"></td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
           <td><?php echo $home[$lang]['option_table']['option_2'] ?></td>
@@ -148,7 +148,7 @@
           <td></td>
         </tr>
         <tr>
-          <td><?php echo $home[$lang]['option_table']['option_7'] ?></td>
+          <td class="title"><?php echo $home[$lang]['option_table']['option_7'] ?></td>
           <td></td>
           <td></td>
         </tr>
