@@ -670,7 +670,7 @@ body a {
   padding: 1rem;
 }
 
-#options table tr:not(last-child) td {
+#options table tr:not(:last-child) td {
   padding: .5rem;
   border-bottom: 1px solid #eee;
 }

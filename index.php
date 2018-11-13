@@ -127,6 +127,111 @@
           <td></td>
           <td></td>
         </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_3'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_4'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_5'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_6'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_7'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_8'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_9'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_10'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_11'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_12'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_13'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_14'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_15'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_16'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_17'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_18'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_19'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_20'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_21'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_22'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_23'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
       </tbody>
     </table>
   </div>
