@@ -125,5 +125,5 @@ $home['en']['option_table']['option_21'] = "SMS service";
 $home['en']['option_table']['option_22'] = "Installation inside your company firewall";
 $home['en']['option_table']['option_23'] = "Trial options";
 
-$home[$lang]['option_desc_1'] = "GpsGate Cloud is an all-inclusive service hosted by GpsGate. We handle your server setup, server maintenance, and ongoing hosting. You can focus on growing your business while we handle the IT.";
-$home[$lang]['option_desc_2'] = "GpsGate On-site lets you have your tracking server behind your firewall. You have the server, and you have the in-house IT skills to manage it.";
+$home[$lang]['option_desc_1'] = "<b>Directiontrack Cloud</b> is an all-inclusive service hosted by GpsGate. We handle your server setup, server maintenance, and ongoing hosting. You can focus on growing your business while we handle the IT.";
+$home[$lang]['option_desc_2'] = "<b>Directiontrack On-site</b> lets you have your tracking server behind your firewall. You have the server, and you have the in-house IT skills to manage it.";
