@@ -103,18 +103,18 @@
           <li><?php echo $home[$lang]['pricing_opt1_feature_3'] ?></li>
           <li><?php echo $home[$lang]['pricing_opt1_feature_4'] ?></li>
         </ul>
-        <span class="price">$2 / month</span>
+        <span class="price">$2 / <?php echo $home[$lang]['pricing_opt1_feature_month'] ?></span>
       </div>
       <div class="onsite">
         <img src="<?php bloginfo('template_directory') ?>/img/power-cord.png" alt="On site" height="50">
-        <h4 class="title">On-Site</h4>
+        <h4 class="title"><?php echo $home[$lang]['pricing_opt2_title'] ?></h4>
         <ul>
-          <li>Managed by Cloud Server</li>
-          <li>Pay as you go</li>
-          <li>30 day risk-free trial</li>
-          <li>Update and Support</li>
+          <li><?php echo $home[$lang]['pricing_opt2_feature_1'] ?></li>
+          <li><?php echo $home[$lang]['pricing_opt2_feature_2'] ?></li>
+          <li><?php echo $home[$lang]['pricing_opt2_feature_3'] ?></li>
+          <li><?php echo $home[$lang]['pricing_opt2_feature_4'] ?></li>
         </ul>
-        <span class="price">$1.5 / month</span>
+        <span class="price">$1.5 / <?php echo $home[$lang]['pricing_opt2_feature_month'] ?></span>
       </div>
     </div>
   </div>
