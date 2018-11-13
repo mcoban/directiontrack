@@ -986,6 +986,7 @@ footer .item ul li a {
 
 #page {
   max-width: 1600px;
+  margin: auto;
   padding: 20px;
 }
 
