@@ -96,12 +96,12 @@
     <div class="choices">
       <div class="cloud">
         <img src="<?php bloginfo('template_directory') ?>/img/cloud.png" alt="Cloud" height="50">
-        <h4 class="title">Cloud</h4>
+        <h4 class="title"><?php echo $home[$lang]['pricing_opt1_title'] ?></h4>
         <ul>
-          <li>On-Site</li>
-          <li>Pay as you go</li>
-          <li>30 day risk-free trial</li>
-          <li>Update and Support</li>
+          <li><?php echo $home[$lang]['pricing_opt1_feature_1'] ?></li>
+          <li><?php echo $home[$lang]['pricing_opt1_feature_2'] ?></li>
+          <li><?php echo $home[$lang]['pricing_opt1_feature_3'] ?></li>
+          <li><?php echo $home[$lang]['pricing_opt1_feature_4'] ?></li>
         </ul>
         <span class="price">$2 / month</span>
       </div>
