@@ -1038,4 +1038,18 @@ footer .item ul li a {
 #page h1 {
   margin-bottom: 30px;
 }
+
+.flag {
+  width: 24px;
+  height: 18px;
+  display: inline-block;
+}
+
+.flag.tr {
+  background: url(img/tr.svg);
+}
+
+.flag.en {
+  background: url(img/en.svg);
+}
 /*# sourceMappingURL=style.css.map */

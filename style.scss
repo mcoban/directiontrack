@@ -833,3 +833,15 @@ footer {
     margin-bottom: 30px;
   }
 }
+
+.flag {
+  width: 24px;
+  height: 18px;
+  display: inline-block;
+  &.tr {
+    background: url(img/tr.svg);
+  }
+  &.en {
+    background: url(img/en.svg);
+  }
+}

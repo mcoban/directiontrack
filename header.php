@@ -46,9 +46,11 @@
         <li><a href="<?php bloginfo('home') ?>/contact/"><?php echo $header[$lang]['contact'] ?></a></li>
         <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
         <li>
-          <a href="#">
-            <img src="<?php bloginfo('template_directory') ?>/img/<?php echo $lang_to_switch ?>.svg" height="20" alt="<?php echo $lang_to_switch ?>">
-          </a>
+<?php if ($lang_to_switch == "en") { ?>
+          <a class="flag tr" href="#"></a>
+          <?php } else { ?>
+            <a class="flag en" href="#"></a>
+<?php } ?>
         </li>
       </ul>
     </div>
