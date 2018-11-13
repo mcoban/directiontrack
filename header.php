@@ -2,6 +2,11 @@
   $lang = isset($_COOKIE['lang']) ? $_COOKIE['lang'] : "en";
   if ($lang != "en" || $lang != "tr") $lang = "en";
   include('lang.php');
+  if ($lang == "en") {
+    $lang_to_switch = "tr";
+  } else {
+    $lang_to_switch = "en";
+  }
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -28,6 +33,11 @@
             <li><a href="/"><?php echo $header[$lang]['home'] ?></a></li>
             <li><a href="/contact/"><?php echo $header[$lang]['contact'] ?></a></li>
             <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
+            <li>
+              <a href="#">
+                <img src="<?php bloginfo('template_directory') ?>/img/<?php echo $lang_to_switch ?>" alt="<?php echo $lang_to_switch ?>">
+              </a>
+            </li>
           </ul>
           <div @click="closeMobileMenu" class="close-button"><img src="<?php bloginfo('template_directory') ?>/img/close.svg" alt="Close Menu" height="48"></div>
       </div>
