@@ -1043,14 +1043,15 @@ footer .item ul li a {
   width: 24px;
   height: 20px;
   display: inline-block;
-  background-size: cover;
 }
 
 .flag.tr {
   background: url(img/tr.svg) no-repeat;
+  background-size: cover;
 }
 
 .flag.en {
   background: url(img/en.svg) no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
