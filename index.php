@@ -122,6 +122,11 @@
           <td></td>
           <td></td>
         </tr>
+        <tr>
+          <td><?php echo $home[$lang]['option_table']['option_2'] ?></td>
+          <td></td>
+          <td></td>
+        </tr>
       </tbody>
     </table>
   </div>
