@@ -687,6 +687,14 @@ body a {
   border-bottom: none;
 }
 
+#options p {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
 footer {
   background: #2B2B2B;
   color: #fff;
