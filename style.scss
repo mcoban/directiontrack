@@ -839,9 +839,9 @@ footer {
   height: 18px;
   display: inline-block;
   &.tr {
-    background: url(img/tr.svg);
+    background: url(img/tr.svg) no-repeat;
   }
   &.en {
-    background: url(img/en.svg);
+    background: url(img/en.svg) no-repeat;
   }
 }

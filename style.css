@@ -1046,10 +1046,10 @@ footer .item ul li a {
 }
 
 .flag.tr {
-  background: url(img/tr.svg);
+  background: url(img/tr.svg) no-repeat;
 }
 
 .flag.en {
-  background: url(img/en.svg);
+  background: url(img/en.svg) no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
