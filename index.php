@@ -4,10 +4,8 @@
     header("Location: /");
   }
   $lang = $_COOKIE['lang'];
-  echo $lang;
   if ($lang != "en" && $lang != "tr") $lang = "en";
   include('lang.php');
-  echo $lang;
 ?>
 <?php get_header() ?>
 
