@@ -11,9 +11,12 @@ new Vue({
     },
     closeMobileMenu () {
       this.isVisible = false
+    },
+    changeLanguage (language) {
+      document.cookie = `lang=${language}`
     }
   },
   created () {
     console.log('Header is loaded')
   }
-});
+})
