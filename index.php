@@ -3,7 +3,8 @@
     setcookie('lang', $_GET['lang']);
     header("Location: /");
   }
-  $lang = isset($_COOKIE['lang']) ? $_COOKIE['lang'] : "en";
+  $lang = $_COOKIE['lang'];
+  echo $lang;
   if ($lang != "en" || $lang != "tr") $lang = "en";
   include('lang.php');
   echo $lang;
