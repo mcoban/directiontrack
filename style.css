@@ -1055,4 +1055,13 @@ footer .item ul li a {
   background: url(img/en.svg) no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 425px) {
+  .flag {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    float: right;
+  }
+}
 /*# sourceMappingURL=style.css.map */

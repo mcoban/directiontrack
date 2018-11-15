@@ -30,9 +30,14 @@
             <li><a href="/contact/"><?php echo $header[$lang]['contact'] ?></a></li>
             <li><a href="https://directiontrack.com/directiontrack/entrydispatcher.jsp"><?php echo $header[$lang]['login'] ?></a></li>
             <li>
-              <a href="#">
+            <?php if ($lang_to_switch == "tr") { ?>
+            <a @click="changeLanguage('tr')" class="flag tr"></a>
+            <?php } else { ?>
+              <a @click="changeLanguage('en')" class="flag en"></a>
+            <?php } ?>
+              <!-- <a href="#">
                 <img src="<?php bloginfo('template_directory') ?>/img/<?php echo $lang_to_switch ?>.svg" height="16" alt="<?php echo $lang_to_switch ?>">
-              </a>
+              </a> -->
             </li>
           </ul>
           <div @click="closeMobileMenu" class="close-button"><img src="<?php bloginfo('template_directory') ?>/img/close.svg" alt="Close Menu" height="48"></div>

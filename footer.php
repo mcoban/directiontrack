@@ -5,7 +5,7 @@
 ?>
 <footer>
   <div class="wrapper">
-      <h4 class="logo">direction track</h4>
+      <h4 class="logo">directiontrack</h4>
       <div class="item">
         <ul>
           <li><a href="/privacy/"><?php echo $footer[$lang]['privacy'] ?></a></li>

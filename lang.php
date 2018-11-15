@@ -138,9 +138,9 @@ $home['tr']['option_table']['option_8'] = "30 ' un üzerinde cihaz desteği";
 $home['tr']['option_table']['option_9'] = "Çoklu dil desteği";
 $home['tr']['option_table']['option_10'] = "Yazılım güncelleme ve destek";
 $home['tr']['option_table']['option_11'] = "Firma ve müşterilere özel markalama";
-$home['tr']['option_table']['option_12'] = "Yön Öptimizasyon";
+$home['tr']['option_table']['option_12'] = "Yön Optimizasyon";
 $home['tr']['option_table']['option_13'] = "Sunucu API Erişimi";
-$home['tr']['option_table']['option_14'] = "İzileme";
+$home['tr']['option_table']['option_14'] = "İzleme";
 $home['tr']['option_table']['option_15'] = "HTTPS Erişimi";
 $home['tr']['option_table']['option_16'] = "Google Haritalar";
 $home['tr']['option_table']['option_17'] = "Sunucu Donanımı";
@@ -152,4 +152,20 @@ $home['tr']['option_table']['option_22'] = "Firma güvenlik duvarına kurulum";
 $home['tr']['option_table']['option_23'] = "Demo Kullanımı";
 $home['tr']['option_desc_1'] = "<b>Directiontrack Bulut</b> tüm servis hizmetlerinin bir arada directiontrack altyapısıyla sunulduğu hizmettir. Sunucu kurulumu, hosting, ve bakım hizmetleri tarafımızdan sağlanmaktadır. Yazılım altyapısıyla vakit kaybetmeden işinizi büyütebilirsiniz.";
 $home['tr']['option_desc_2'] = "<b>Directiontrack Yerinde</b> hizmetiyle kendi sunucularınızla ve güvenlik altyapınızla yazılım ve servis hizmetlerini kullanabilirsiniz.";
+
+
+
+$contact['en']['title'] = "Contact Us";
+$contact['en']['description'] = "If you’re considering Vehicle or Asset tracking platform, or just want more information, we’re happy to answer all your questions and get you set up. <strong>directiontrack</strong> representative will contact you within one business day. Simply send us email via <a href=\"mailto:info@directiontrack.com\">info@directiontrack.com</a>";
+$contact['en']['where_we_are'] = "Where Are We?";
+$contact['en']['odtu'] = "<strong>ODTÜ Teknokent Bilişim İnovasyon Merkezi </strong>";
+$contact['en']['address'] = "Mustafa Kemal Mahallesi Dumlupınar Bulvarı 280/G Çankaya / ANKARA";
+$contact['en']['mail'] = "info@directiontrack.com";
+
+$contact['tr']['title'] = "İletişim";
+$contact['tr']['description'] = "Araç ya da taşıt takip sistemiyle ilgileniyor ve konu hakkında daha detaylı bilgi almak istiyorsanız, bizimle iletişime geçebilirsiniz. directiontrack olarak, mümkün olan en kısa süre içersinde sorularınızı cevaplayacağız. Tek yapmanız gereken info@directiontrack.com adresine mail atmanız.";
+$contact['tr']['where_we_are'] = "Biz Kimiz?";
+$contact['tr']['odtu'] = "ODTÜ Teknokent Bilişim İnovasyon Merkezi";
+$contact['tr']['address'] = "Mustafa Kemal Mahallesi Dumlupınar Bulvarı 280/G Çankaya / ANKARA";
+$contact['tr']['mail'] = "info@directiontrack.com";
 

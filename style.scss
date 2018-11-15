@@ -640,7 +640,6 @@ footer {
 #about,
 #contact {
   margin: 100px 30px;
-
   .title {
     font-size: 72px;
     font-weight: 700;
@@ -846,5 +845,12 @@ footer {
   &.en {
     background: url(img/en.svg) no-repeat;
     background-size: cover;
+  }
+
+  @media screen and (max-width: $break-mobile) {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    float: right;;
   }
 }
