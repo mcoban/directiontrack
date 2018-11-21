@@ -831,6 +831,31 @@ footer {
   h1 {
     margin-bottom: 30px;
   }
+  .content {
+    
+    p {
+      font-size: 1.05rem;
+      line-height: 1.5rem;
+      margin: 1.7rem 0;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: 2rem 0 0;
+    }
+    ul {
+      margin: 1.5rem;
+      li {
+        list-style-type: none;
+        line-height: 1.3rem;
+        font-size: .95rem;
+      }
+    }
+    ol {
+      padding-left: 1rem;
+    }
+  }
 }
 
 .flag {

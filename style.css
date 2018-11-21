@@ -1039,6 +1039,32 @@ footer .item ul li a {
   margin-bottom: 30px;
 }
 
+#page .content p {
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  margin: 1.7rem 0;
+}
+
+#page .content h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 2rem 0 0;
+}
+
+#page .content ul {
+  margin: 1.5rem;
+}
+
+#page .content ul li {
+  list-style-type: none;
+  line-height: 1.3rem;
+  font-size: .95rem;
+}
+
+#page .content ol {
+  padding-left: 1rem;
+}
+
 .flag {
   width: 24px;
   height: 20px;
