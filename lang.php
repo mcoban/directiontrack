@@ -96,7 +96,7 @@ $footer['tr']['privacy'] = "Gizlilik";
 $footer['en']['terms_of_service'] = "Terms of Service";
 $footer['tr']['terms_of_service'] = "Kullanım Koşulları";
 $footer['en']['faq'] = "Faq";
-$footer['tr']['faq'] = "Sss";
+$footer['tr']['faq'] = "SSS";
 $footer['en']['contact'] = "Contact";
 $footer['tr']['contact'] = "İletişim";
 

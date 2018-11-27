@@ -3,6 +3,14 @@
   if ($lang != "en" && $lang != "tr") $lang = "en";
   include('lang.php');
   $lang_to_switch = $lang == "en" ? "tr" : "en";
+  
+  if ( is_page () ) {
+    if ($lang !== 'en') {
+      $other_title = get_post_meta($post->ID, $lang . "_title", $single);
+      $other_title = $other_title[0];
+    }
+  }
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -10,7 +18,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><?php wp_title() ?></title>
+  <title>
+    <?php 
+    if (!$other_title) {
+      wp_title();
+    } else {
+      echo $other_title;
+    }
+    ?>
+  </title>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
   <link rel="icon" href="<?php bloginfo('template_directory') ?>/img/logo.png" type="image/x-icon"/>
 
